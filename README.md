@@ -1,5 +1,5 @@
 # Frozen waves
-A set of C++ routines to evaluate the fields of frozen waves (FWs) [[1–2](#references)].
+A set of C++ routines to evaluate the fields of frozen waves (FWs) [[1–3](#references)].
 
 ## Licensing
 This project is protected under <a href="LICENSE">MIT License</a>. The principal author is [@jodesarro]( https://github.com/jodesarro ) in colaboration with Professor <a href="https://orcid.org/0000-0003-0404-9509">Leonardo A. Ambrosio</a> from <a href="http://www.sel.eesc.usp.br/leonardo/index.html">Applied Electromagnetics Group (AEG)</a>.
