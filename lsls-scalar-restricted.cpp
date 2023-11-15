@@ -76,7 +76,7 @@ int main()
 
 
     // Printing information.
-    cout << "| LSLS-SCALAR-RESTRICTED | 05 SEP 2023 | @JODESARRO |" << endl;
+    cout << "| LSLS-SCALAR-RESTRICTED | 15 NOV 2023 | @JODESARRO |" << endl;
     cout << "A C++ routine to evaluate the scalar field of longitudinally structured light sheets restricted to the case where Qm=Q, Lm=L and Nm=N." << endl;
     cout << "https://github.com/jodesarro/frozen-waves\n" << endl;
 
@@ -111,17 +111,37 @@ int main()
     cout << "Chosen value for L parameter: " << L << " m" << endl;   
 
 
+    // Specification of whether to ensure purely real transverse wavenumber.
+    //  Set true to ensure purely real transverse wavenumber or false otherwise.
+    bool is_purely_real_transverse_wavenumber = false;
+
+
     // Specification of Q parameter.
     //  It is assumed Qm=Q.
 
-    //  Use the next 2 lines only to calculate Q with a chosen spot radius.
+    //  Use the next 17 lines only to calculate Q with a chosen spot radius.
     //double chosen_spot_radius_fw = 9.0e-6;
-    //double Q = sqrt( 1. - pow(2.4048*l0/(chosen_spot_radius_fw*2.*M_PI), 2.) )*2.*M_PI/l0;
-    //double a = Q/real(nref)*k0;
+    //double a;
+    //if (is_purely_real_transverse_wavenumber)
+    //{
+    //    if ( imag(nref) != 0. )
+    //    {
+    //        //a = ? //not calculated yet.
+    //    }
+    //    else
+    //    {
+    //        a = sqrt( 1.0 - pow(l0*2.4048/(2.0*M_PI*real(nref)*chosen_spot_radius_fw), 2.0 );
+    //    }
+    //}
+    //else
+    //{
+    //    a = sqrt( 1.0 - pow(l0*2.4048/(2.0*M_PI*real(nref)*chosen_spot_radius_fw), 2.0 );
+    //}
     
     //  Use the next line only to specify a fixed value for Q.
     double a = 0.9986;
-    double Q = a*real(nref)*k0;
+
+    double Q = a*k0*real(nref);
     
     cout << "Chosen value for the a parameter: " << a << endl;   
     cout << "Calculated value for Q parameter: " << Q << " 1/m" << endl;
@@ -139,11 +159,6 @@ int main()
         y0[im] = 0.;
     }
     cout << "Separation between consecutives FWs: (" << dx0 << ", " << dy0 << ") m" << endl;
-
-
-    // Specification of whether to ensure purely real transverse wavenumber.
-    //  Set true to ensure purely real transverse wavenumber or false otherwise.
-    bool is_purely_real_transverse_wavenumber = false;
 
 
     // Specification of data calculation parameters.
@@ -175,7 +190,7 @@ int main()
     complex<double> k = k0*nref;
     complex<double> h [inmax];
     complex<double> b [inmax];
-    if ( is_purely_real_transverse_wavenumber)
+    if (is_purely_real_transverse_wavenumber)
     {
         for ( int in=0; in<inmax; in++ )
         {
