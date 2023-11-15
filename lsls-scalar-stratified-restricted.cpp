@@ -157,7 +157,7 @@ int main()
     // Specification of Q parameter.
     //  It is assumed Qm=Q.
 
-    //  Use the next 9 lines only to calculate Q with a chosen spot radius.
+    //  Use the next 10 lines only to calculate Q with a chosen spot radius.
     //double chosen_spot_radius_fw = 9.0e-6;
     //double a;
     //if ( imag(nref[ismax-1]) != 0. )
