@@ -1,4 +1,4 @@
-# Frozen Waves: A curated collection of frozen wave codes
+# Frozen Waves: A curated collection of Frozen Wave codes
 To see more information about frozen waves, see Refs. [[1](#references)]–[[4](#references)].
 
 ## Authorship
