@@ -9,8 +9,16 @@ Frozen Waves (FWs). If you are unfamiliar with FWs, see
 
 This folder contains a
 [Wolfram Mathematica](https://www.wolfram.com/mathematica/) code for plotting
-the field intensity of a scalar surface FW ( light sheet or 2D FW). Similar
+the field intensity of a scalar surface FW (light sheet or 2D FW). Similar
 codes may be used in [Ref. [5]](#references).
+
+### [:file_folder: 2-resistant-surface-frozen-waves](2-resistant-surface-frozen-waves)
+
+This folder contains a C++ code for computation and
+[Wolfram Mathematica](https://www.wolfram.com/mathematica/) codes for plotting
+the field intensity of a scalar surface FW (light sheet or 2D FW) resistant
+to the attenuation of lossy media. Similar codes may be used in
+[Ref. [6]](#references).
 
 ## Authorship
 The codes and routines were mainly developed and are updated by
@@ -52,3 +60,7 @@ Media," in 2019 PhotonIcs & Electromagnetics Research Symposium - Spring
 (PIERS-Spring), Rome, Italy: IEEE, Mar. 2020, pp. 283–288,
 [doi: 10.1109/PIERS-Spring46901.2019.9017377](https://doi.org/10.1109/PIERS-Spring46901.2019.9017377).
 
+[6] J. O. de Sarro and L. A. Ambrosio, "Surface beams resistant to diffraction
+and attenuation and structured at the millimeter scale," Journal of the
+Optical Society of America B, vol. 38, no. 3, pp. 677–684, Mar. 2021,
+[doi: 10.1364/JOSAB.412756](https://doi.org/10.1364/JOSAB.412756).
