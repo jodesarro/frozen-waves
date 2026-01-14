@@ -1,4 +1,4 @@
-# Frozen waves: A set of C++ routines to evaluate fields of frozen waves
+# Frozen Waves: A curated collection of frozen wave codes
 To see more information about frozen waves, see Refs. [[1](#references)]–[[4](#references)].
 
 ## Authorship
