@@ -5,9 +5,12 @@ Frozen Waves (FWs). If you are unfamiliar with FWs, see
 
 ## Collection folders and their content
 
-### 1-millimeter-structured-surface-beams
+### [:file_folder: 1-millimeter-structured-surface-beams](1-millimeter-structured-surface-beams)
 
-
+This folder contains a
+[Wolfram Mathematica](https://www.wolfram.com/mathematica/) code for plotting
+the field intensity of a scalar surface FW ( light sheet or 2D FW). Similar
+codes may be used in [Ref. [5]](#references).
 
 ## Authorship
 The codes and routines were mainly developed and are updated by
