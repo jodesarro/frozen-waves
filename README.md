@@ -4,7 +4,7 @@ This collection provides codes that may be used to explore the theory of
 Frozen Waves (FWs). If you are unfamiliar with FWs, see
 [Refs. [1], [2], [3], and [4]](#references) for an initial overview.
 
-## Collection folders and their content
+## Folders and their content
 
 ### [:file_folder: 1-millimeter-structured-surface-beams](1-millimeter-structured-surface-beams)
 
