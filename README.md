@@ -8,14 +8,14 @@ Frozen Waves (FWs). If you are unfamiliar with FWs, see
 
 ### [:file_folder: 1-millimeter-structured-surface-beams](1-millimeter-structured-surface-beams)
 
-This folder contains a
+This folder contains
 [Wolfram Mathematica](https://www.wolfram.com/mathematica/) codes for plotting
 the field intensity of a scalar surface FW (light sheet or 2D FW). Similar
 codes may have been employed in [Ref. [5]](#references).
 
 ### [:file_folder: 2-resistant-surface-frozen-waves](2-resistant-surface-frozen-waves)
 
-This folder contains a C++ codes for computation and
+This folder contains C++ codes for computation and
 [Wolfram Mathematica](https://www.wolfram.com/mathematica/) codes for plotting
 the field intensity of a scalar surface FW (light sheet or 2D FW) resistant or
 not to the attenuation of a lossy media. Similar codes may have been employed
@@ -23,15 +23,15 @@ in [Ref. [6]](#references).
 
 ### [:file_folder: 3-gaussian-apodized-frozen-waves](3-gaussian-apodized-frozen-waves)
 
-This folder contains a C++ codes for computation and
+This folder contains C++ codes for computation and
 [Wolfram Mathematica](https://www.wolfram.com/mathematica/) codes for plotting
 the field intensity of a scalar surface FW (light sheet or 2D FW) apodized by
 gaussian profiles. Similar codes may have been employed in
 [Ref. [7]](#references).
 
-### [:file_folder: 4-frozen-waves-stratified-media](4-frozen-waves-stratified-media)
+### [:file_folder: 4-frozen-waves-in-stratified-media](4-frozen-waves-in-stratified-media)
 
-This folder contains a C++ codes for computation and
+This folder contains C++ codes for computation and
 [Wolfram Mathematica](https://www.wolfram.com/mathematica/) codes for plotting
 the field intensity of a scalar surface FW (light sheet or 2D FW) propagating
 through stratified media. Similar codes may have been employed in
@@ -39,7 +39,7 @@ through stratified media. Similar codes may have been employed in
 
 ### [:file_folder: 5-frozen-waves-and-4f-systems](5-frozen-waves-and-4f-systems)
 
-This folder contains a C++ codes for computation and
+This folder contains C++ codes for computation and
 [Wolfram Mathematica](https://www.wolfram.com/mathematica/) codes for plotting
 the field intensity of a scalar surface FW (light sheet or 2D FW) propagating
 through stratified media. Similar codes may have been employed in
