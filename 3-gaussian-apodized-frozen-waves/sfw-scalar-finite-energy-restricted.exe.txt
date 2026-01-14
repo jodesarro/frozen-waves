@@ -1,0 +1,26 @@
+| SFW-SCALAR-FINITE-ENERGY-RESTRICTED | 21 APR 2023 | @JODESARRO |
+A C++ routine to evaluate the scalar field of surface frozen waves of finite energy and restricted to the case where Qm=Q, Lm=L, Nm=N and w0m=w0.
+https://github.com/jodesarro/frozen-waves
+
+Loading general parameters...
+Calculated value for Q parameter: 1.3899e+07 1/m
+Gaussian waist radius (z=0): 0.00461807 m
+Separation between consecutives FWs: (0.000233645, 0) m
+x E (0 m, 0.0116822 m, 401 pt)
+y E (0 m, 0 m, 1 pt)
+z E (0 m, 0.1 m, 429 pt)
+Calculating wavenumbers...
+Calculated maximum value possible for N: 155
+Calculated Gaussian spot radius (transverse intensity width) apodization at z=0: 0.00326547 m
+Calculated Bessel beam axicon angle for n=+N: 0.0484668 rad = 2.77694 degree
+Calculated Bessel beam axicon angle for n=-N: 0.057029 rad = 3.26752 degree
+Calculated Bessem beam aperture radius for n=+N: 0.00242524 m
+Calculated Bessel beam aperture radius for n=-N: 0.00285455 m
+Calculated single FW spot radius: 3.26547e-06 m
+Calculated single FW spot radius by asymptotic expansion: 3.1992e-06 m
+Loading file containing the function F...
+Calculating the A coefficients...
+Calculating scalar field...
+Exporting scalar field...
+Done! Elapsed time: 280 seconds.
+Pressione qualquer tecla para continuar. . .

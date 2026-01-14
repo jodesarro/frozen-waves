@@ -1,0 +1,37 @@
+| LSLS-SCALAR-RESTRICTED-P-4f | 07 APR 2024 | @JODESARRO |
+A C++ routine to evaluate the scalar field of longitudinally structured light sheets, restricted to the case where Qm=Q, Lm=L and Nm=N, after P 4f systems.
+https://github.com/jodesarro/frozen-waves
+
+Loading general parameters...
+Chosen value for the refractive index: (1,0)
+Chosen value for the wavelength (in vacuum): 5.14e-07 m
+Calculated value for the angular frequency (in vacuum): 3.66469e+15 rad/s
+Chosen value for N parameter: 27
+Chosen value for M parameter: 1
+Chosen value for z0 parameter: 0.1
+Chosen value for L parameter: 2 m
+Calculated value for total transverse reescalation: 0.00925926
+Calculated value for total longitudinal reescalation: 8.57339e-05
+Calculated value for total amplitude reescalation: 11664
+Calculated value for total longitudinal displacement: 0.610808
+Calculated value for longitudinal displacement from last lens: 0.0308076
+Chosen value for the a parameter: 0.999993
+Calculated value for Q parameter: 1.2224e+07 1/m
+Separation between consecutives FWs: (0, 0) m
+x E (-1.38889e-06 m, 1.38889e-06 m, 201 pt)
+y E (-1.38889e-06 m, 1.38889e-06 m, 201 pt)
+z E (0.0308076 m, 0.0308376 m, 201 pt)
+Calculating wavenumbers...
+Calculated maximum value possible for N: 27
+Calculated incident Bessel beam axicon angle for n=+N: 0.000349285 rad = 0.0200126 degree
+Calculated incident Bessel beam axicon angle for n=-N: 0.00527997 rad = 0.30252 degree
+Calculated incident Bessel beam aperture radius for n=+N: 0.00069857 m
+Calculated incident Bessel beam aperture radius for n=-N: 0.01056 m
+Calculated spot radius of a incident FW: 5.25773e-05 m
+Calculated spot radius by asymptotic expansion of a incident FW: 5.15146e-05 m
+Calculated spot radius of a final FW: 4.86827e-07 m
+Calculating the A coefficients...
+Calculating Bessel functions...
+Calculating scalar field...
+Exporting scalar field...
+Done! Elapsed time: 199 seconds.

@@ -1,4 +1,5 @@
 # Frozen Waves: A curated collection of Frozen Wave codes
+
 This collection provides codes that may be used to explore the theory of
 Frozen Waves (FWs). If you are unfamiliar with FWs, see
 [Refs. [1], [2], [3], and [4]](#references) for an initial overview.
@@ -8,33 +9,65 @@ Frozen Waves (FWs). If you are unfamiliar with FWs, see
 ### [:file_folder: 1-millimeter-structured-surface-beams](1-millimeter-structured-surface-beams)
 
 This folder contains a
-[Wolfram Mathematica](https://www.wolfram.com/mathematica/) code for plotting
+[Wolfram Mathematica](https://www.wolfram.com/mathematica/) codes for plotting
 the field intensity of a scalar surface FW (light sheet or 2D FW). Similar
-codes may be used in [Ref. [5]](#references).
+codes may have been employed in [Ref. [5]](#references).
 
 ### [:file_folder: 2-resistant-surface-frozen-waves](2-resistant-surface-frozen-waves)
 
-This folder contains a C++ code for computation and
+This folder contains a C++ codes for computation and
 [Wolfram Mathematica](https://www.wolfram.com/mathematica/) codes for plotting
-the field intensity of a scalar surface FW (light sheet or 2D FW) resistant
-to the attenuation of lossy media. Similar codes may be used in
-[Ref. [6]](#references).
+the field intensity of a scalar surface FW (light sheet or 2D FW) resistant or
+not to the attenuation of a lossy media. Similar codes may have been employed
+in [Ref. [6]](#references).
+
+### [:file_folder: 3-gaussian-apodized-frozen-waves](3-gaussian-apodized-frozen-waves)
+
+This folder contains a C++ codes for computation and
+[Wolfram Mathematica](https://www.wolfram.com/mathematica/) codes for plotting
+the field intensity of a scalar surface FW (light sheet or 2D FW) apodized by
+gaussian profiles. Similar codes may have been employed in
+[Ref. [7]](#references).
+
+### [:file_folder: 4-frozen-waves-stratified-media](4-frozen-waves-stratified-media)
+
+This folder contains a C++ codes for computation and
+[Wolfram Mathematica](https://www.wolfram.com/mathematica/) codes for plotting
+the field intensity of a scalar surface FW (light sheet or 2D FW) propagating
+through stratified media. Similar codes may have been employed in
+[Refs. [8] and [9]](#references).
+
+### [:file_folder: 5-frozen-waves-and-4f-systems](5-frozen-waves-and-4f-systems)
+
+This folder contains a C++ codes for computation and
+[Wolfram Mathematica](https://www.wolfram.com/mathematica/) codes for plotting
+the field intensity of a scalar surface FW (light sheet or 2D FW) propagating
+through stratified media. Similar codes may have been employed in
+[Ref. [10]](#references).
+
+## Change log
+
+Refer to the [CHANGELOG.md](CHANGELOG.md) file for the latest updates.
 
 ## Authorship
+
 The codes and routines were mainly developed and are updated by
 <a href="https://www.researchgate.net/profile/Jhonas-de-Sarro">Jhonas O. de
 Sarro</a> ([@jodesarro]( https://github.com/jodesarro )).
 
 ## Acknowledgements
+
 The author is very grateful for the collaborations with Professor
 <a href="https://www.researchgate.net/profile/Leonardo-Ambrosio">Leonardo A.
 Ambrosio</a> of <a href="http://www.sel.eesc.usp.br/leonardo">Applied
 Electromagnetics Group (AEG)</a> from University of São Paulo (USP).
 
 ## Licensing
-This project is protected under <a href="LICENSE">MIT License</a>. 
+
+This project is protected under <a href="LICENSE">MIT License</a>.
 
 ## References
+
 [1] M. Zamboni-Rached, "Diffraction-Attenuation resistant beams in absorbing
 media," Opt. Express, vol. 14, no. 5, pp. 1804–1809, Mar. 2006,
 [doi: 10.1364/OE.14.001804](https://doi.org/10.1364/OE.14.001804).
@@ -64,3 +97,27 @@ Media," in 2019 PhotonIcs & Electromagnetics Research Symposium - Spring
 and attenuation and structured at the millimeter scale," Journal of the
 Optical Society of America B, vol. 38, no. 3, pp. 677–684, Mar. 2021,
 [doi: 10.1364/JOSAB.412756](https://doi.org/10.1364/JOSAB.412756).
+
+[7] J. O. de Sarro, V. S. de Angelis, and L. A. Ambrosio, "Effects of Gaussian
+Apodization on the Propagation of Two-Dimensional Discrete Frozen Waves in
+Homogeneous Media," in 2023 SBMO/IEEE MTT-S International Microwave and
+Optoelectronics Conference (IMOC), Castelldefels, Spain: IEEE, Jan. 2024, pp.
+286–288,
+[doi: 10.1109/IMOC57131.2023.10379774](https://doi.org/10.1109/IMOC57131.2023.10379774).
+
+[8] J. O. de Sarro and L. A. Ambrosio, "Propagation of ideal discrete
+'frozen wave'-type light-sheets in lossless stratified media," Optics & Laser
+Technology, vol. 175, p. 110745, Aug. 2024,
+[doi: 10.1016/j.optlastec.2024.110745](https://doi.org/10.1016/j.optlastec.2024.110745).
+
+[9] J. O. de Sarro and L. A. Ambrosio, "Two-dimensional Discrete Frozen Waves
+of Infinite Energy in Lossy Stratified Media," in 2024 IEEE Photonics
+Conference (IPC), Rome, Italy: IEEE, Dec. 2024, p. P35,
+[doi: 10.1109/IPC60965.2024.10799710](https://doi.org/10.1109/IPC60965.2024.10799710).
+
+[10] J. O. de Sarro, M. Zamboni-Rached, G. Gouesbet, and L. A. Ambrosio,
+"Engineering the longitudinal intensity profile of optical beams after an
+arbitrary number of 4f-systems for light scattering applications," in 2025
+Photonics & Electromagnetics Research Symposium - Spring (PIERS-Spring), Abu
+Dhabi, United Arab Emirates: IEEE, Dec. 2025, pp. 1–6,
+[doi: 10.1109/PIERS-Spring66516.2025.11276750](https://doi.org/10.1109/PIERS-Spring66516.2025.11276750).
