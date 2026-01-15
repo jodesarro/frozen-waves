@@ -68,9 +68,10 @@ This project is protected under <a href="LICENSE">MIT License</a>.
 
 ## References
 
-[1] M. Zamboni-Rached, "Diffraction-Attenuation resistant beams in absorbing
-media," Opt. Express, vol. 14, no. 5, pp. 1804–1809, Mar. 2006,
-[doi: 10.1364/OE.14.001804](https://doi.org/10.1364/OE.14.001804).
+[1] M. Zamboni-Rached, "Stationary optical wave fields with arbitrary
+longitudinal shape by superposing equal frequency Bessel beams:
+Frozen Waves," Optics Express, vol. 12, no. 17, pp. 4001--4006, Aug. 2004, 
+[doi: 10.1364/OPEX.12.004001](https://doi.org/10.1364/OPEX.12.004001).
 
 [2] M. Zamboni-Rached, E. Recami, and H. E. Hernández-Figueroa, "Theory of
 'frozen waves': modeling the shape of stationary wave fields," Journal of the
