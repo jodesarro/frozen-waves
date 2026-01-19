@@ -72,7 +72,7 @@ This project is protected under <a href="LICENSE">MIT License</a>.
 <a id="ref1"></a>
 [1] M. Zamboni-Rached, "Stationary optical wave fields with arbitrary
 longitudinal shape by superposing equal frequency Bessel beams:
-Frozen Waves," Optics Express, vol. 12, no. 17, pp. 4001--4006, Aug. 2004, 
+Frozen Waves," Optics Express, vol. 12, no. 17, pp. 4001–4006, Aug. 2004, 
 [doi: 10.1364/OPEX.12.004001](https://doi.org/10.1364/OPEX.12.004001).
 
 <a id="ref2"></a>
