@@ -66,6 +66,7 @@ Electromagnetics Group (AEG)</a> from University of São Paulo (USP).
 ## Licensing
 
 This project is protected under <a href="LICENSE">MIT License</a>.
+The codes may have their own licenses.
 
 ## References
 
